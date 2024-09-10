@@ -1,0 +1,26 @@
+{
+    "name": "cordova-plugin-mock-location",
+    "version": "1.0.0",
+    "description": "This plugin allows check mock location",
+    "cordova": {
+      "id": "com.ccervantesb.mock_location",
+      "platforms": [
+        "android"
+      ]
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/cesarcervantesb/cordova-plugin-mock-location.git"
+    },
+    "keywords": [
+      "ecosystem:cordova",
+      "cordova-android"
+    ],
+    "author": "ccervantesb",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/cesarcervantesb/cordova-plugin-mock-location/issues"
+    },
+    "homepage": "https://github.com/cesarcervantesb/cordova-plugin-mock-location#readme"
+  }
+  
