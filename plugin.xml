@@ -13,6 +13,6 @@
 			</feature>
 		</config-file>
 		<config-file parent="/*" target="AndroidManifest.xml"></config-file>
-		<source-file src="src/android/PluginMockLocation.java" target-dir="src/com/ccervanteb/mock_lockation/PluginMockLocation" />
+		<source-file src="src/android/PluginMockLocation.java" target-dir="src/com/ccervanteb/mock_lockation" />
 	</platform>
 </plugin>
