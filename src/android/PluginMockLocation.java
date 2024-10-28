@@ -82,7 +82,7 @@ public class PluginMockLocation extends CordovaPlugin {
                 try {
                     this.resultJSON.put("isMockLocation", isMockLocation);
                     Log.d("DetectMockLocation", "Used location provider is: " + usedProvider);
-                    if(this.getInfoFromLocation) {
+                    if(this.getInfoFromLocation && isMockLocation) {
                         JSONObject mockLocation = getLocationInfo(location);
                         this.resultJSON.put("mockLocation", mockLocation);
                         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {

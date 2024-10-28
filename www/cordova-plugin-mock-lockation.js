@@ -1,5 +1,10 @@
 var exec = require('cordova/exec');
 
-exports.checkMockLocation = function (success, error) {
-    exec(success, error, 'PluginMockLocation', 'checkMockLocation', []);
+const PLUGIN_NAME = "PluginMockLocation"
+
+exports.checkMockLocation = function (getInfo=false) {
+    var args = [getInfo];
+    return new Promise((resolve, reject) => {
+        exec(resolve, reject, PLUGIN_NAME, 'checkMockLocation', args);
+    });
 };
