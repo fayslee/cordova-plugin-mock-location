@@ -11,7 +11,7 @@ This plugin allows checking the status from your current device location and det
 Install plugin from npm:
 
 ```
-npm i cordova-plugin-mock-location
+npm i @ccervantesb/cordova-plugin-mock-location
 ```
 
 Or install the latest master version from GitHub:
