@@ -12,7 +12,15 @@
 				<param name="android-package" value="com.ccervanteb.mock_lockation.PluginMockLocation" />
 			</feature>
 		</config-file>
-		<config-file parent="/*" target="AndroidManifest.xml"></config-file>
+		<config-file parent="/*" target="AndroidManifest.xml" />
 		<source-file src="src/android/PluginMockLocation.java" target-dir="src/com/ccervanteb/mock_lockation" />
+	</platform>
+	<platform name="ios">
+		<config-file parent="/*" target="config.xml">
+			<feature name="PluginMockLocation">
+				<param name="ios-package" value="PluginMockLocation" />
+			</feature>
+		</config-file>
+		<source-file src="src/ios/PluginMockLocation.m" />
 	</platform>
 </plugin>
