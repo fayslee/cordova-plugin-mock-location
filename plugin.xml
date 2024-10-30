@@ -5,6 +5,7 @@
 	<name>PluginMockLocation</name>
 	<js-module name="mockLocation" src="www/cordova-plugin-mock-lockation.js">
 		<clobbers target="cordova.plugins.mockLocation" />
+		<clobbers target="mockLocation" />
 	</js-module>
 	<platform name="android">
 		<config-file parent="/*" target="res/xml/config.xml">
