@@ -1,9 +1,9 @@
 {
     "name": "@ccervantesb/cordova-plugin-mock-location",
-    "version": "1.0.2",
-    "description": "This plugin allows checking the status from your current device location and detect if it is a spoof location.",
+    "version": "1.1.0",
+    "description": "This plugin allows checking the status from your current device location and detect if it's a spoof location.",
     "cordova": {
-      "id": "com.ccervantesb.mock_location",
+      "id": "com.ccervantesb.mocklocation",
       "platforms": [
         "android",
         "ios"

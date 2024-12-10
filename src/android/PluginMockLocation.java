@@ -1,4 +1,4 @@
-package com.ccervanteb.mock_lockation;
+package com.ccervantesb.mocklocation;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
