@@ -8,3 +8,24 @@ exports.checkMockLocation = function (getInfo=false) {
         exec(resolve, reject, PLUGIN_NAME, 'checkMockLocation', args);
     });
 };
+
+exports.setMockLocation = function (opts) {
+    var args = [opts];
+    return new Promise((resolve, reject) => {
+        exec(resolve, reject, PLUGIN_NAME, 'setMockLocation', args);
+    });
+};
+
+exports.disableMockLocation = function (provider) {
+    var args = [provider];
+    return new Promise((resolve, reject) => {
+        exec(resolve, reject, PLUGIN_NAME, 'disableMockLocation', args);
+    });
+};
+
+exports.isAvailable = function () {
+    var args = [];
+    return new Promise((resolve, reject) => {
+        exec(resolve, reject, PLUGIN_NAME, 'isAvailable', args);
+    });
+};
