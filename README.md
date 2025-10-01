@@ -17,7 +17,7 @@ npm i @ccervantesb/cordova-plugin-mock-location
 Or install the latest master version from GitHub:
 
 ```
-cordova plugin add https://github.com/cesarcervantesb/cordova-plugin-mock-location
+cordova plugin add https://github.com/fayslee/cordova-plugin-mock-location
 ```
 
 ## Supported Platforms
